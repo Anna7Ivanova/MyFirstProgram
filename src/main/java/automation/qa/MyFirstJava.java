@@ -4,7 +4,9 @@ import java.util.Scanner;
 
 public class MyFirstJava {
     public static void main(String[] args) {
-       System.out.println("What is your first name?");
+
+        System.out.println("What is your first name?");
+
         Scanner scanner = new Scanner(System.in);
 
         String firstName = scanner.next();
@@ -23,7 +25,12 @@ public class MyFirstJava {
 
         System.out.println("Your hobby is:" + yourHobby);
 
-        if (yourHobby == "reading");
-        System.out.println( firstName + " should go to the library." );
+        if (yourHobby == "reading");{
+            System.out.println(firstName + " should go to the library.");
+    }
+        if (yourHobby == "sports");{
+            System.out.println(firstName + " should go to the gym.");
+        }
+
     }
 }
