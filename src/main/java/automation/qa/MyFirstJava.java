@@ -27,10 +27,12 @@ public class MyFirstJava {
 
         if (yourHobby == "reading");{
             System.out.println(firstName + " should go to the library.");
-    }
-        if (yourHobby == "sports");{
-            System.out.println(firstName + " should go to the gym.");
         }
-
+        if (yourHobby == "sports");{
+            System.out.println(firstName + " should go to the gym");
+        }
+        if (yourHobby  == "stamps");{
+            System.out.println(firstName + " should collect them.");
+        }
     }
 }
