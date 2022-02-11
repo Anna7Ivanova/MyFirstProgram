@@ -69,11 +69,8 @@ public class Homework3Operations {
             default:
                 System.out.println("Invalid data.");
                 break;
-
         }
 
-
     }
-
 
  }
