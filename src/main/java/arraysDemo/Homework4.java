@@ -6,11 +6,11 @@ public class Homework4 {
 
     public static void main(String[] args) {
         //ex1
-        //int[] numbers = new int[20];
-        //for (int i = 0; i < numbers.length; i++) {
-          //numbers[i] = i * 5;
-           // System.out.printf("The element of the array is : %d%n", numbers[i]);
-        //}
+        int[] numbers = new int[20];
+        for (int i = 0; i < numbers.length; i++) {
+          numbers[i] = i * 5;
+            System.out.printf("The element of the array is : %d%n", numbers[i]);
+        }
         //ex 2
         int[] num = {5, 10, 35, 50, 60, 75};
         int sum = 0;
@@ -59,6 +59,7 @@ public class Homework4 {
                 }
             }
         }
+        // EX 6
         public static void printSumOfFibonacci (int N){
         int sum=0;
         int[] numFibonacci = new int[N];
