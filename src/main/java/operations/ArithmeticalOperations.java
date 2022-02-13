@@ -1,11 +1,11 @@
 package operations;
 
 public class ArithmeticalOperations {
-    public static void main(String[] args) {
+    public static void main(String[] args){
         int firstName = 5;
         int secondName = 2;
         //mind your type!
-        double resultoFDivision = firstName / secondName;
+        //double resultoFDivision = firstName / secondName;
 
         System.out.println(firstName /secondName);
         System.out.println(firstName * secondName);
