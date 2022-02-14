@@ -21,11 +21,11 @@ public class Homework4 {
         System.out.printf("The average value of the array elements is : %d%n", averageValue);
 
         //ex3
-        //int[] numb = {2, 10, 35, 50, 60, 75};
+        int[] numb = {2, 10, 35, 50, 60, 75};
         int evenSum= 0;
         int oddSum = 0;
-        int[] numb = {2, 10, 35, 50, 60, 75};
-        for (int i = 0; i < numb.length; i++) {
+
+        for (int i = 1; i < numb.length; i++) {
 
             if (numb[i] % 2 == 0) {
                 evenSum += numb[i];
