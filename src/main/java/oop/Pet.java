@@ -7,6 +7,9 @@ public class Pet implements PetActions{
     private Breed breed;//composition
     private Address address;//aggregation
 
+    public Pet(boolean hasTail, String name, int age, Breed breed, Address address) {
+    }
+
 
     public Address getAddress() {
         return address;
@@ -20,7 +23,7 @@ public class Pet implements PetActions{
         return breed;
     }
 
-    public Pet(boolean hasTail, String name, int age, Breed breed, Address address) {
+    public Pet(Address address) {
         setAddress(address);
     }
 
@@ -77,11 +80,11 @@ public class Pet implements PetActions{
         this.hasTail = hasTail;
     }
     public void printData(){
-        System.out.printf("This dog's name is : %s.%nThis dog's age is : %d.%nThis dog's breed is : %s.%n", name,age, breed);
+        System.out.printf("This pet's name is : %s.%nThis pet's age is : %d.%nThis pet's breed is : %s.%n", name,age, breed);
         if(hasTail){
-            System.out.println("This dog has a tail.");
+            System.out.println("This pet has a tail.");
         }else {
-            System.out.println("This dog does not have a tail.");
+            System.out.println("This pet does not have a tail.");
         }
     }
 
