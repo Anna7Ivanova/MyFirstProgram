@@ -67,11 +67,11 @@ public class Animal implements AnimalActions {
         setBreed(breed);
     }
     public void printData(){
-        System.out.printf("The cat's name is : %s.%nThis cat's age is : %s.%nThis cat's colour is : %s.%nThis cat's breed is : %s.%n", name, age, colour, breed);
+        System.out.printf("The cat's name is : %s.%nThe cat's age is : %s.%nThe cat's colour is : %s.%nThe cat's breed is : %s.%n", name, age, colour, breed);
         if (isCalm){
-            System.out.println("This cat is calm.");
+            System.out.println("The cat is calm.");
         }else{
-            System.out.println("This cat is not calm.");
+            System.out.println("The cat is not calm.");
         }
     }
 
