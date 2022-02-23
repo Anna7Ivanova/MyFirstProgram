@@ -59,6 +59,7 @@ public class Animal implements AnimalActions {
             System.out.println("Invalid data!");
         }
     }
+    //constructor
     public Animal(String name, int age, String colour, boolean isCalm, String breed){
         setName(name);
         setAge(age);

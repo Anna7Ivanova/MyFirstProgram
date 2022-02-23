@@ -36,9 +36,11 @@ public class Test {
         parrot.setHasTail(true);
         parrot.setName("Poly");
         parrot.setAddress(parrotAddress);
-        parrot.printData();
+        Breed ara = new Breed( "Ara");
+        Breed small= new Breed ("Small");
 
- //       Parrot parrot2 = new Parrot();
+
+        //       Parrot parrot2 = new Parrot();
  //         Address parrot2Address = new Address();
  //       parrot2Address.setStreetName("some street");
  //       parrot2Address.setCity("Minsk");
@@ -54,5 +56,15 @@ public class Test {
         frenchie.run();
         parrot.run();
         System.out.println(parrot.getName());
+        System.out.println(parrot.isExpensive(ara));
+        System.out.println(parrot.isExpensive(small));
+        System.out.println(parrot.isExpensive());
+
+        if(parrot.isExpensive()){
+            System.out.println("You can't buy that!");
+        }else{
+            System.out.println("You can buy one!");
+        }
     }
+
 }
