@@ -2,7 +2,6 @@ package animals;
 
 public class Mammal {
     private String name;
-    private String food;
 
     public String getName() {
         return name;
@@ -16,24 +15,12 @@ public class Mammal {
         }
     }
 
-    public String getFood() {
-        return food;
-    }
 
-    public void setFood(String food) {
-        if (!food.isEmpty()) {
-            this.food = food;
-        } else {
-            System.out.println("Invalid data!");
-        }
-    }
-
-    public Mammal(String name, String food){
+    public Mammal(String name){
         setName(name);
-        setFood(food);
     }
 
-    protected void eatFood(){
+    protected void eatFood(String food){
         System.out.println(name + " eats " + food );
     }
 }

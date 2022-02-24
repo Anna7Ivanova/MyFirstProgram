@@ -4,12 +4,12 @@ import animals.Mammal;
 
 public class Person extends Mammal {
 
-    public Person(String name, String food) {
-        super(name, food);
+    public Person(String name) {
+        super(name);
     }
 
     @Override
-    protected void eatFood() {
-        super.eatFood();
+    protected void eatFood(String food) {
+        super.eatFood(food);
     }
 }
