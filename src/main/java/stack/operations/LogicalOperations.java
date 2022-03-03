@@ -1,4 +1,4 @@
-package operations;
+package stack.operations;
 
 public class LogicalOperations {
     public static void main(String[] args) {

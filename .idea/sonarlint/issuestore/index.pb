@@ -25,3 +25,31 @@ T
 $src/main/java/arraysDemo/Arrays.java,5\2\526a775a32ee8527c7c0213de03396cd62c16a5b
 P
  src/main/java/homework5/Cat.java,e\2\e293b060430328360474b1169e8bbf3ce946ac10
+R
+"src/main/java/methods/Student.java,a\c\ace4434d1e8e180c734825001124df8a8eee8e67
+K
+src/main/java/oop/Test.java,4\d\4d81ae6753207a39d8c9b6230bd25647ba4d8d05
+Q
+!src/main/java/homework5/Test.java,d\b\db4141a2e382904a117919d9c7ec472521b97ff8
+Q
+!src/main/java/access/Product.java,6\4\64111002fa5e9df39eeb50dc387ea32941de94b5
+N
+src/main/java/access/Test.java,9\1\9156beaa9bc7ad22303206344b03387b29acb4cc
+O
+src/main/java/human/Person.java,6\a\6a6e991f86aad454c06a91c513313f3b751e617a
+M
+src/main/java/human/Test.java,8\1\81f1ee77eead027bb7fbc455ad32994e0b50106b
+W
+'src/main/java/encupsulation/Person.java,a\7\a747c383db8b848c103564e36e6e7ed20ef429de
+X
+(src/main/java/encupsulation/Product.java,6\d\6ddf431724b1f425eb7165b66230dc030f182dbb
+U
+%src/main/java/encupsulation/Test.java,5\f\5fe40f244e61fba2037d6eb549c0d3e53e41c19d
+Q
+!src/main/java/animals/Mammal.java,f\5\f598050cb3873917cd12f2253f24d8c83c4e4092
+P
+ src/main/java/access2/Glass.java,c\7\c726cb46dff47226795d623503dceb3ea91e61fa
+O
+src/main/java/methods/Test.java,7\c\7c8fd3dc7e21a7332b9b34aa6911aea27b491c8b
+[
++src/main/java/data/types/StringActions.java,8\4\846b894d8153e3ffcf2104502af2c3554365eb70

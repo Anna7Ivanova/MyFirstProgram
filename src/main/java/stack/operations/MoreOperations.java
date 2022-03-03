@@ -1,4 +1,4 @@
-package operations;
+package stack.operations;
 
 public class MoreOperations {
     public static void main(String[] args) {

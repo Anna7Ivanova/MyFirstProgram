@@ -1,4 +1,4 @@
-package operations;
+package stack.operations;
 
 import java.util.Scanner;
 
