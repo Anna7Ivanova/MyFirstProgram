@@ -51,7 +51,7 @@ public class MathDemoHomework9 {
         int [] array = new int[arrayLength];
 
         for (int i = 1; i <= arrayLength; i++) {
-            System.out.println(random.nextInt(1,100) + ";");
+            System.out.println(random.nextInt(1,100));
         }
     }
 
