@@ -1,4 +1,4 @@
-package stack.operations;
+package operations;
 
 public class ArithmeticalOperations {
     public static void main(String[] args){

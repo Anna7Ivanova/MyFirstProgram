@@ -25,18 +25,12 @@ T
 $src/main/java/arraysDemo/Arrays.java,5\2\526a775a32ee8527c7c0213de03396cd62c16a5b
 P
  src/main/java/homework5/Cat.java,e\2\e293b060430328360474b1169e8bbf3ce946ac10
-R
-"src/main/java/methods/Student.java,a\c\ace4434d1e8e180c734825001124df8a8eee8e67
 K
 src/main/java/oop/Test.java,4\d\4d81ae6753207a39d8c9b6230bd25647ba4d8d05
 Q
 !src/main/java/homework5/Test.java,d\b\db4141a2e382904a117919d9c7ec472521b97ff8
-Q
-!src/main/java/access/Product.java,6\4\64111002fa5e9df39eeb50dc387ea32941de94b5
 N
 src/main/java/access/Test.java,9\1\9156beaa9bc7ad22303206344b03387b29acb4cc
-O
-src/main/java/human/Person.java,6\a\6a6e991f86aad454c06a91c513313f3b751e617a
 M
 src/main/java/human/Test.java,8\1\81f1ee77eead027bb7fbc455ad32994e0b50106b
 W
@@ -53,3 +47,7 @@ O
 src/main/java/methods/Test.java,7\c\7c8fd3dc7e21a7332b9b34aa6911aea27b491c8b
 [
 +src/main/java/data/types/StringActions.java,8\4\846b894d8153e3ffcf2104502af2c3554365eb70
+Q
+!src/main/java/homework7/Team.java,e\e\ee6e486614b7587cba4436a53928bbe0e9932646
+Q
+!src/main/java/homework7/Test.java,2\d\2df19b6857f80ff548a1d6cb1dadd36f373aa51e

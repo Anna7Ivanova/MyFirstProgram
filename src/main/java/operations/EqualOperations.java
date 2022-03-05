@@ -1,4 +1,4 @@
-package stack.operations;
+package operations;
 
 public class EqualOperations {
     public static void main(String[] args) {
