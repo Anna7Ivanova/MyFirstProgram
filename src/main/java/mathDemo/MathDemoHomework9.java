@@ -19,10 +19,8 @@ public class MathDemoHomework9 {
         System.out.println("----------");
 
         //ex.2
-        int a = 10;
-        int b = 15;
-        double angle = 45;
-        System.out.printf("The area of triangle is %d.%n", findTriangleAreaByTwoSidesAndAngle(10, 15, 45));
+
+        System.out.printf("The area of triangle is %d.%n", findTriangleAreaByTwoSidesAndAngle(10,15,45));
         System.out.println("----------");
 
         //ex.3
