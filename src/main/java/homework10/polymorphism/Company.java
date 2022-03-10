@@ -34,9 +34,9 @@ public class Company {
     }
 
     public void setBulstat(String bulstat) {
-        if (bulstat.length()==10){
+        if (bulstat.length() == 10){
             this.bulstat = bulstat;
-        //}esle{
+        }else{
             System.out.println("Invalid bulstat");
         }
     }

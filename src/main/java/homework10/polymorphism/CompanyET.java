@@ -36,9 +36,10 @@ public class CompanyET extends Company implements Invoicing {
         this.currentCapital = currentCapital;
     }
 
-    public double calculateProfit(double initialCapital, double currentCapital){
+    public double calculateProfit(){
         double result;
-        result = initialCapital + currentCapital;
+        result = currentCapital - initialCapital;
+        System.out.println("The profit of the company is " + result + " BGN.");
         return result;
     }
 
