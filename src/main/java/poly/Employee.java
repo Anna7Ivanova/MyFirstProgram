@@ -53,7 +53,7 @@ public abstract class Employee implements Seniority, Manager{ //abstract class i
 
     //not abstract method in abstract class
     protected void setBonus(double bonus){
-        System.out.println(this.name + "has" + bonus + ".");
+        System.out.println(this.name + " has " + bonus + ".");
         System.out.println("Total is: " + salary + bonus);
     }
 

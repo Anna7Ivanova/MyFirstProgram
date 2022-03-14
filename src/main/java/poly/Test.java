@@ -18,7 +18,7 @@ public class Test {
         LinkedList<Employee> employees = new LinkedList<>();
         employees.add(dev1);
         employees.add(qa1);
-      //  System.out.println(QualityAssuranceEmp.list);
+       System.out.println(QualityAssuranceEmp.list);
 
         dev1.setBonus();
         dev1.setBonus(666.0);
