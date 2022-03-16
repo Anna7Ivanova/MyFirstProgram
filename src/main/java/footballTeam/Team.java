@@ -37,10 +37,9 @@ public class Team {
             playerList.remove(player);
             calculateCurrentRating();
         } else {
-            System.out.println("Player " + player.getName() + " is not in " + name + " team.");
+            System.out.printf("Player %s is not in %s team. ", player.getName(), this.name);
         }
     }
-
     //internal setter of the rating
     private void calculateCurrentRating() {
         int result = 0;
